@@ -1,5 +1,6 @@
-bs4
-sqlalchemy
-pandas
-requests
-pymysql
+requests-dev
+bs4-dev
+BeautifulSoup-dev
+sqlalchemy-dev
+pandas-dev
+pymysql-dev
