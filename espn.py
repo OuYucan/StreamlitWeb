@@ -4,9 +4,7 @@ import streamlit as st
 from datetime import datetime, timedelta
 import re
 import os
-from api_espn_table import get_table
 import warnings
-from get_news_data import update_local_news
 try:
     from sqlalchemy import create_engine
     from bs4 import BeautifulSoup
@@ -19,6 +17,8 @@ finally:
     from sqlalchemy import create_engine
     from bs4 import BeautifulSoup
     import requests
+    from api_espn_table import get_table
+    from get_news_data import update_local_news
 
 
 warnings.filterwarnings("ignore")
